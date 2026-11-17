@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(if [ ! -s wawa.jpg ])",
+      "Bash(then curl -sL -o wawa.jpg \"https://www.wawafertility.com/opengraph-image.png\")",
+      "Bash(fi)",
+      "Bash(file:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
